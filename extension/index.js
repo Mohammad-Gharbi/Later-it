@@ -9,13 +9,16 @@ browser.tabs.onUpdated.addListener(function (tabId, changeInfo) {
 })
 
 async function postData(articleUrl) {
-  const rawResponse = await fetch("http://localhost:3000/api/addArticle", {
-    method: "POST",
-    body: JSON.stringify({ articleUrl }),
-    headers: {
-      "Content-Type": "application/json",
-    },
-  })
+  const rawResponse = await fetch(
+    "https://later-it.vercel.app/api/addArticle",
+    {
+      method: "POST",
+      body: JSON.stringify({ articleUrl }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    }
+  )
 
   return rawResponse
 }
