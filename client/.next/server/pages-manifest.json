@@ -2,5 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js"
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
+  "/api/addArticle": "pages/api/addArticle.js",
+  "/api/getArticles": "pages/api/getArticles.js",
+  "/api/getTag": "pages/api/getTag.js"
 }

@@ -1,9 +1,20 @@
+"use client"
+
 import Link from "next/link"
+import { getProviders, signIn, useSession } from "next-auth/react"
 
 import demo from "../public/demo.png"
 import Image from "next/image"
+import { useRouter } from "next/navigation"
 
 export default function Page() {
+  const { data: session } = useSession()
+  const router = useRouter()
+
+  if (session) {
+    router.push("/inbox")
+  }
+
   return (
     <div className="relative">
       <div className="absolute left-0 aspect-square w-[50em] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#7E2EFF]/20 blur-[500px]"></div>
@@ -34,13 +45,13 @@ export default function Page() {
             <Link href="#pricing">Pricing</Link>
           </div>
           <div className="flex h-7 w-60 flex-row items-center justify-between text-xl font-medium text-white">
-            <Link href="/login">Login</Link>
-            <Link
+            <button onClick={() => signIn()}>Login</button>
+            <button
+              onClick={() => signIn()}
               className="h-11 w-36 rounded-xl bg-[#7E2EFF] py-2 text-center text-lg font-bold"
-              href="/login"
             >
               START FREE
-            </Link>
+            </button>
           </div>
         </div>
       </div>
@@ -57,18 +68,18 @@ export default function Page() {
           </div>
         </div>
         <div className="flex w-96 flex-row items-center justify-between py-6 text-xl font-medium">
-          <Link
+          <button
+            onClick={() => signIn()}
             className="h-14 w-44 rounded-xl bg-[#7E2EFF] py-3 text-center text-lg font-bold text-white"
-            href="#"
           >
             START FREE
-          </Link>
-          <Link
+          </button>
+          <button
+            onClick={() => signIn()}
             className="h-14 w-44 rounded-xl bg-white py-3 text-center text-lg font-bold text-black"
-            href="#"
           >
             View Live Demo
-          </Link>
+          </button>
         </div>
       </div>
       {/* Demo */}
