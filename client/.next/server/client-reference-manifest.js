@@ -3422,32 +3422,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/(components)/NextAuthProvider.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./public/demo.png": {
       "*": {
         "id": "(sc_client)/./public/demo.png",
@@ -3802,178 +3776,28 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/(components)/ArticlePreview.jsx": {
+    "(app-client)/./app/(components)/NextAuthProvider.jsx": {
       "*": {
-        "id": "(sc_client)/./app/(components)/ArticlePreview.jsx",
+        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
         "name": "*",
         "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./app/(components)/ArticlePreview.jsx",
+        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
         "name": "",
         "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
-        ],
-        "async": false
-      },
-      "ArticlePreview": {
-        "id": "(sc_client)/./app/(components)/ArticlePreview.jsx",
-        "name": "ArticlePreview",
-        "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/(components)/DropDownMenu.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/(components)/DropDownMenu.jsx",
-        "name": "*",
-        "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/(components)/DropDownMenu.jsx",
-        "name": "",
-        "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
-        ],
-        "async": false
-      },
-      "DropDownMenu": {
-        "id": "(sc_client)/./app/(components)/DropDownMenu.jsx",
-        "name": "DropDownMenu",
-        "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/inbox/page.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/inbox/page.jsx",
-        "name": "*",
-        "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/inbox/page.jsx",
-        "name": "",
-        "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/inbox/page.jsx",
+        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
         "name": "default",
         "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./redux/slices/apiSlice.js": {
-      "*": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "*",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "apiSlice": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "apiSlice",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useAddArticleMutation": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useAddArticleMutation",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useAddNewTagMutation": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useAddNewTagMutation",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useDeleteArticleMutation": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useDeleteArticleMutation",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useDeleteTagMutation": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useDeleteTagMutation",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useGetArticlesQuery": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useGetArticlesQuery",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useGetTagQuery": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useGetTagQuery",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useRemoveTagArticleMutation": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useRemoveTagArticleMutation",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useTagArticleMutation": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useTagArticleMutation",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useUpdateStatusMutation": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useUpdateStatusMutation",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
@@ -4134,6 +3958,104 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./redux/slices/apiSlice.js": {
+      "*": {
+        "id": "(sc_client)/./redux/slices/apiSlice.js",
+        "name": "*",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./redux/slices/apiSlice.js",
+        "name": "",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      },
+      "apiSlice": {
+        "id": "(sc_client)/./redux/slices/apiSlice.js",
+        "name": "apiSlice",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      },
+      "useAddArticleMutation": {
+        "id": "(sc_client)/./redux/slices/apiSlice.js",
+        "name": "useAddArticleMutation",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      },
+      "useAddNewTagMutation": {
+        "id": "(sc_client)/./redux/slices/apiSlice.js",
+        "name": "useAddNewTagMutation",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      },
+      "useDeleteArticleMutation": {
+        "id": "(sc_client)/./redux/slices/apiSlice.js",
+        "name": "useDeleteArticleMutation",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      },
+      "useDeleteTagMutation": {
+        "id": "(sc_client)/./redux/slices/apiSlice.js",
+        "name": "useDeleteTagMutation",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      },
+      "useGetArticlesQuery": {
+        "id": "(sc_client)/./redux/slices/apiSlice.js",
+        "name": "useGetArticlesQuery",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      },
+      "useGetTagQuery": {
+        "id": "(sc_client)/./redux/slices/apiSlice.js",
+        "name": "useGetTagQuery",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      },
+      "useRemoveTagArticleMutation": {
+        "id": "(sc_client)/./redux/slices/apiSlice.js",
+        "name": "useRemoveTagArticleMutation",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      },
+      "useTagArticleMutation": {
+        "id": "(sc_client)/./redux/slices/apiSlice.js",
+        "name": "useTagArticleMutation",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      },
+      "useUpdateStatusMutation": {
+        "id": "(sc_client)/./redux/slices/apiSlice.js",
+        "name": "useUpdateStatusMutation",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./redux/store/store.js": {
       "*": {
         "id": "(sc_client)/./redux/store/store.js",
@@ -4156,6 +4078,84 @@ self.__RSC_MANIFEST={
         "name": "store",
         "chunks": [
           "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/(components)/ArticlePreview.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/(components)/ArticlePreview.jsx",
+        "name": "*",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/(components)/ArticlePreview.jsx",
+        "name": "",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      },
+      "ArticlePreview": {
+        "id": "(sc_client)/./app/(components)/ArticlePreview.jsx",
+        "name": "ArticlePreview",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/(components)/DropDownMenu.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/(components)/DropDownMenu.jsx",
+        "name": "*",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/(components)/DropDownMenu.jsx",
+        "name": "",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      },
+      "DropDownMenu": {
+        "id": "(sc_client)/./app/(components)/DropDownMenu.jsx",
+        "name": "DropDownMenu",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/inbox/page.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/inbox/page.jsx",
+        "name": "*",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/inbox/page.jsx",
+        "name": "",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/inbox/page.jsx",
+        "name": "default",
+        "chunks": [
+          "app/inbox/page:static/chunks/app/inbox/page.js"
         ],
         "async": false
       }
@@ -11608,44 +11608,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/font/google/target.css?{\"path\":\"app/layout.jsx\",\"import\":\"Inter\",\"arguments\":[{\"weight\":[\"400\",\"500\",\"700\"],\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx": {
-      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx#": {
-      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx#default": {
-      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
     "/Users/mohamedgharbi/Documents/Projects/Later-it/client/public/demo.png": {
       "id": "(app-client)/./public/demo.png",
       "name": "*",
@@ -13534,171 +13496,41 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/ArticlePreview.jsx": {
-      "id": "(app-client)/./app/(components)/ArticlePreview.jsx",
-      "name": "*",
-      "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/ArticlePreview.jsx#": {
-      "id": "(app-client)/./app/(components)/ArticlePreview.jsx",
-      "name": "",
-      "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/ArticlePreview.jsx#ArticlePreview": {
-      "id": "(app-client)/./app/(components)/ArticlePreview.jsx",
-      "name": "ArticlePreview",
-      "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/DropDownMenu.jsx": {
-      "id": "(app-client)/./app/(components)/DropDownMenu.jsx",
-      "name": "*",
-      "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/DropDownMenu.jsx#": {
-      "id": "(app-client)/./app/(components)/DropDownMenu.jsx",
-      "name": "",
-      "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/DropDownMenu.jsx#DropDownMenu": {
-      "id": "(app-client)/./app/(components)/DropDownMenu.jsx",
-      "name": "DropDownMenu",
-      "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/inbox/page.jsx": {
-      "id": "(app-client)/./app/inbox/page.jsx",
-      "name": "*",
-      "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/inbox/page.jsx#": {
-      "id": "(app-client)/./app/inbox/page.jsx",
-      "name": "",
-      "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/inbox/page.jsx#default": {
-      "id": "(app-client)/./app/inbox/page.jsx",
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/globals.css#": {
+      "id": "null",
       "name": "default",
       "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
+        "static/css/app/layout.css"
+      ]
     },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/font/google/target.css?{\"path\":\"app/layout.jsx\",\"import\":\"Inter\",\"arguments\":[{\"weight\":[\"400\",\"500\",\"700\"],\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx": {
+      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
       "name": "*",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx#": {
+      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
       "name": "",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#apiSlice": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "apiSlice",
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx#default": {
+      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
+      "name": "default",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useAddArticleMutation": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useAddArticleMutation",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useAddNewTagMutation": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useAddNewTagMutation",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useDeleteArticleMutation": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useDeleteArticleMutation",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useDeleteTagMutation": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useDeleteTagMutation",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useGetArticlesQuery": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useGetArticlesQuery",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useGetTagQuery": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useGetTagQuery",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useRemoveTagArticleMutation": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useRemoveTagArticleMutation",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useTagArticleMutation": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useTagArticleMutation",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useUpdateStatusMutation": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useUpdateStatusMutation",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -13846,6 +13678,102 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js": {
+      "id": "(app-client)/./redux/slices/apiSlice.js",
+      "name": "*",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#": {
+      "id": "(app-client)/./redux/slices/apiSlice.js",
+      "name": "",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#apiSlice": {
+      "id": "(app-client)/./redux/slices/apiSlice.js",
+      "name": "apiSlice",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useAddArticleMutation": {
+      "id": "(app-client)/./redux/slices/apiSlice.js",
+      "name": "useAddArticleMutation",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useAddNewTagMutation": {
+      "id": "(app-client)/./redux/slices/apiSlice.js",
+      "name": "useAddNewTagMutation",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useDeleteArticleMutation": {
+      "id": "(app-client)/./redux/slices/apiSlice.js",
+      "name": "useDeleteArticleMutation",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useDeleteTagMutation": {
+      "id": "(app-client)/./redux/slices/apiSlice.js",
+      "name": "useDeleteTagMutation",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useGetArticlesQuery": {
+      "id": "(app-client)/./redux/slices/apiSlice.js",
+      "name": "useGetArticlesQuery",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useGetTagQuery": {
+      "id": "(app-client)/./redux/slices/apiSlice.js",
+      "name": "useGetTagQuery",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useRemoveTagArticleMutation": {
+      "id": "(app-client)/./redux/slices/apiSlice.js",
+      "name": "useRemoveTagArticleMutation",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useTagArticleMutation": {
+      "id": "(app-client)/./redux/slices/apiSlice.js",
+      "name": "useTagArticleMutation",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useUpdateStatusMutation": {
+      "id": "(app-client)/./redux/slices/apiSlice.js",
+      "name": "useUpdateStatusMutation",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
     "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/store/store.js": {
       "id": "(app-client)/./redux/store/store.js",
       "name": "*",
@@ -13867,6 +13795,78 @@ self.__RSC_MANIFEST={
       "name": "store",
       "chunks": [
         "app/inbox/layout:static/chunks/app/inbox/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/ArticlePreview.jsx": {
+      "id": "(app-client)/./app/(components)/ArticlePreview.jsx",
+      "name": "*",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/ArticlePreview.jsx#": {
+      "id": "(app-client)/./app/(components)/ArticlePreview.jsx",
+      "name": "",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/ArticlePreview.jsx#ArticlePreview": {
+      "id": "(app-client)/./app/(components)/ArticlePreview.jsx",
+      "name": "ArticlePreview",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/DropDownMenu.jsx": {
+      "id": "(app-client)/./app/(components)/DropDownMenu.jsx",
+      "name": "*",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/DropDownMenu.jsx#": {
+      "id": "(app-client)/./app/(components)/DropDownMenu.jsx",
+      "name": "",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/DropDownMenu.jsx#DropDownMenu": {
+      "id": "(app-client)/./app/(components)/DropDownMenu.jsx",
+      "name": "DropDownMenu",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/inbox/page.jsx": {
+      "id": "(app-client)/./app/inbox/page.jsx",
+      "name": "*",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/inbox/page.jsx#": {
+      "id": "(app-client)/./app/inbox/page.jsx",
+      "name": "",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/inbox/page.jsx#default": {
+      "id": "(app-client)/./app/inbox/page.jsx",
+      "name": "default",
+      "chunks": [
+        "app/inbox/page:static/chunks/app/inbox/page.js"
       ],
       "async": false
     }
