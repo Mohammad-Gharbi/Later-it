@@ -43,7 +43,7 @@ export const authOptions = {
       name: `__Secure-next-auth.session-token`,
       options: {
         httpOnly: true,
-        sameSite: "lax",
+        sameSite: "None",
         path: "/",
         secure: true,
       },
@@ -51,7 +51,7 @@ export const authOptions = {
     callbackUrl: {
       name: `__Secure-next-auth.callback-url`,
       options: {
-        sameSite: "lax",
+        sameSite: "None",
         path: "/",
         secure: true,
       },
@@ -60,7 +60,7 @@ export const authOptions = {
       name: `__Host-next-auth.csrf-token`,
       options: {
         httpOnly: true,
-        sameSite: "lax",
+        sameSite: "None",
         path: "/",
         secure: true,
       },
@@ -69,7 +69,7 @@ export const authOptions = {
       name: `${cookiePrefix}next-auth.pkce.code_verifier`,
       options: {
         httpOnly: true,
-        sameSite: "lax",
+        sameSite: "None",
         path: "/",
         secure: useSecureCookies,
         maxAge: 900,
@@ -79,7 +79,7 @@ export const authOptions = {
       name: `${cookiePrefix}next-auth.state`,
       options: {
         httpOnly: true,
-        sameSite: "lax",
+        sameSite: "None",
         path: "/",
         secure: useSecureCookies,
         maxAge: 900,
@@ -89,7 +89,7 @@ export const authOptions = {
       name: `${cookiePrefix}next-auth.nonce`,
       options: {
         httpOnly: true,
-        sameSite: "lax",
+        sameSite: "None",
         path: "/",
         secure: useSecureCookies,
       },

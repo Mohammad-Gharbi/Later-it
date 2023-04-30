@@ -3422,6 +3422,32 @@
         "async": false
       }
     },
+    "(app-client)/./app/(components)/NextAuthProvider.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./public/demo.png": {
       "*": {
         "id": "(sc_client)/./public/demo.png",
@@ -3772,32 +3798,6 @@
         "name": "value",
         "chunks": [
           "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/(components)/NextAuthProvider.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
@@ -11608,6 +11608,44 @@
       ],
       "async": false
     },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/font/google/target.css?{\"path\":\"app/layout.jsx\",\"import\":\"Inter\",\"arguments\":[{\"weight\":[\"400\",\"500\",\"700\"],\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx": {
+      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx#": {
+      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx#default": {
+      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "/Users/mohamedgharbi/Documents/Projects/Later-it/client/public/demo.png": {
       "id": "(app-client)/./public/demo.png",
       "name": "*",
@@ -13493,44 +13531,6 @@
       "name": "warnOnce",
       "chunks": [
         "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/font/google/target.css?{\"path\":\"app/layout.jsx\",\"import\":\"Inter\",\"arguments\":[{\"weight\":[\"400\",\"500\",\"700\"],\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx": {
-      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx#": {
-      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx#default": {
-      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
