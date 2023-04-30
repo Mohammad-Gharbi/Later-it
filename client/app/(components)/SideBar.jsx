@@ -71,6 +71,7 @@ export function SideBar() {
         </svg>
 
         <div className="mt-10 mb-10 flex h-24 flex-col items-center justify-between">
+          {/* Inbox */}
           <Tooltip.Provider>
             <Tooltip.Root>
               <Tooltip.Trigger asChild>
@@ -152,7 +153,7 @@ export function SideBar() {
               </Tooltip.Portal>
             </Tooltip.Root>
           </Tooltip.Provider>
-
+          {/* Later */}
           <Tooltip.Provider>
             <Tooltip.Root>
               <Tooltip.Trigger asChild>
@@ -206,7 +207,7 @@ export function SideBar() {
               </Tooltip.Portal>
             </Tooltip.Root>
           </Tooltip.Provider>
-
+          {/* Archive */}
           <Tooltip.Provider>
             <Tooltip.Root>
               <Tooltip.Trigger asChild>
@@ -254,7 +255,7 @@ export function SideBar() {
             </Tooltip.Root>
           </Tooltip.Provider>
         </div>
-
+        {/* Divider */}
         <svg
           width="65"
           height="1"
@@ -276,9 +277,10 @@ export function SideBar() {
 
         <AddTag tagName="Learning" />
       </div>
+
       <div className="flex flex-col items-center">
         <AddArticle />
-
+        {/* Profile */}
         <button>
           {status === "authenticated" ? (
             <img
