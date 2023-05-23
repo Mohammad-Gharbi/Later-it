@@ -29,14 +29,11 @@ export const authOptions = {
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
     }),
   ],
-  // pages: {
-  //   signIn: "/auth/login",
-  // },
   theme: {
     colorScheme: "dark",
-    brandColor: "#7e2eff", // Hex color code
-    logo: "", // Absolute URL to image
-    buttonText: "#ffffff", // Hex color code
+    brandColor: "#7e2eff",
+    logo: "",
+    buttonText: "#ffffff",
   },
 }
 

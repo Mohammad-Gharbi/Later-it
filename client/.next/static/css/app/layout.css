@@ -719,9 +719,6 @@ video {
 .w-full {
   width: 100%;
 }
-.w-screen {
-  width: 100vw;
-}
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -960,10 +957,6 @@ video {
 .py-36 {
   padding-top: 9rem;
   padding-bottom: 9rem;
-}
-.py-44 {
-  padding-top: 11rem;
-  padding-bottom: 11rem;
 }
 .py-6 {
   padding-top: 1.5rem;
