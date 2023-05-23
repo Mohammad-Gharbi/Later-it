@@ -2,16 +2,11 @@
 
 import * as Tooltip from "@radix-ui/react-tooltip"
 import { AddTag } from "./AddTag"
-import { useSession, signOut } from "next-auth/react"
 import AddArticle from "./AddArticle"
 import Link from "next/link"
-import { useRouter } from "next/navigation"
 import { useEffect } from "react"
 
 export function SideBar() {
-  const { data: session, status } = useSession()
-  const router = useRouter()
-
   function onKeyDown(event) {
     if (event.key === "i") {
       router.push("/inbox")
@@ -281,16 +276,7 @@ export function SideBar() {
       <div className="flex flex-col items-center">
         <AddArticle />
         {/* Profile */}
-        <button>
-          {status === "authenticated" ? (
-            <img
-              className="h-11 w-11 rounded-full"
-              src={session.user.image}
-            ></img>
-          ) : (
-            ""
-          )}
-        </button>
+        <button></button>
       </div>
     </div>
   )

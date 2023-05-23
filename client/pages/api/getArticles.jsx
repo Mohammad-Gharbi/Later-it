@@ -1,7 +1,5 @@
 import Cors from "cors"
 import { PrismaClient } from "@prisma/client"
-import { getServerSession } from "next-auth/next"
-import { authOptions } from "pages/api/auth/[...nextauth]"
 
 const prisma = new PrismaClient()
 
@@ -23,15 +21,12 @@ function runMiddleware(req, res, fn) {
 
 export default async function getPosts(req, res) {
   await runMiddleware(req, res, cors)
-  const session = await getServerSession(req, res, authOptions)
 
-  if (req.method === "GET" && session) {
-    const prismaUser = await prisma.user.findUnique({
-      where: { email: session?.user?.email },
-    })
-    const result = await prisma.article.findMany({
-      where: { userId: prismaUser.id },
-    })
-    res.status(200).json(result)
-  }
+  const prismaUser = await prisma.user.findUnique({
+    where: { email: session?.user?.email },
+  })
+  const result = await prisma.article.findMany({
+    where: { userId: prismaUser.id },
+  })
+  res.status(200).json(result)
 }

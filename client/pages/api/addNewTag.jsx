@@ -1,7 +1,5 @@
 import Cors from "cors"
 import { PrismaClient } from "@prisma/client"
-import { getServerSession } from "next-auth"
-import { authOptions } from "pages/api/auth/[...nextauth]"
 
 const prisma = new PrismaClient()
 
@@ -23,21 +21,18 @@ function runMiddleware(req, res, fn) {
 
 export default async function addNewTag(req, res) {
   await runMiddleware(req, res, cors)
-  const session = await getServerSession(req, res, authOptions)
 
-  if (req.method === "POST" && session) {
-    const { tagName } = req.body
-    const prismaUser = await prisma.user.findUnique({
-      where: { email: session?.user?.email },
-    })
+  const { tagName } = req.body
+  const prismaUser = await prisma.user.findUnique({
+    where: { email: session?.user?.email },
+  })
 
-    const result = await prisma.tag.create({
-      data: {
-        tagName: tagName,
-        userId: prismaUser.id,
-      },
-    })
+  const result = await prisma.tag.create({
+    data: {
+      tagName: tagName,
+      userId: prismaUser.id,
+    },
+  })
 
-    res.status(200).json(result)
-  }
+  res.status(200).json(result)
 }

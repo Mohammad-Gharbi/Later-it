@@ -1,20 +1,10 @@
 "use client"
 
 import Link from "next/link"
-import { getProviders, signIn, useSession } from "next-auth/react"
-
 import demo from "../public/demo.png"
 import Image from "next/image"
-import { useRouter } from "next/navigation"
 
 export default function Page() {
-  const { data: session } = useSession()
-  const router = useRouter()
-
-  if (session) {
-    router.push("/inbox")
-  }
-
   return (
     <div className="relative">
       <div className="absolute left-0 aspect-square w-[50em] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#7E2EFF]/20 blur-[500px]"></div>

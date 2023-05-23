@@ -1,4 +1,3 @@
-import NextAuthProvider from "./(components)/NextAuthProvider"
 import "./globals.css"
 import { Inter } from "next/font/google"
 
@@ -15,7 +14,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.className} h-screen overflow-scroll bg-[#111111]`}
       >
-        <NextAuthProvider>{children}</NextAuthProvider>
+        {children}
       </body>
     </html>
   )
