@@ -8,12 +8,9 @@ import {
   useGetArticlesQuery,
 } from "../../../redux/slices/apiSlice"
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu"
-import * as Toast from "@radix-ui/react-toast"
 import "react-toastify/dist/ReactToastify.css"
 
 export default function Tag({ params }) {
-  const [open, setOpen] = useState(false)
-  const timerRef = useRef(0)
   const query = useSearchParams()
   const tagId = query.get("id")
 
@@ -29,14 +26,6 @@ export default function Tag({ params }) {
 
   const [deleteTag, { isLoadingDelete, isSuccessDelete, isErrorDelete }] =
     useDeleteTagMutation()
-
-  useEffect(() => {
-    setOpen(false)
-    window.clearTimeout(timerRef.current)
-    timerRef.current = window.setTimeout(() => {
-      setOpen(true)
-    }, 100)
-  }, [isLoading, isError, isLoadingDelete])
 
   let content
 

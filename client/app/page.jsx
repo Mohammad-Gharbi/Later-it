@@ -1,10 +1,19 @@
 "use client"
 
-import Link from "next/link"
 import demo from "../public/demo.png"
 import Image from "next/image"
+import { useSession, signIn, signOut } from "next-auth/react"
+import { useRouter } from "next/navigation"
 
 export default function Page() {
+  const { data: session } = useSession()
+
+  const router = useRouter()
+
+  if (session) {
+    router.push("/inbox")
+  }
+
   return (
     <div className="relative">
       <div className="absolute left-0 aspect-square w-[50em] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#7E2EFF]/20 blur-[500px]"></div>
@@ -29,25 +38,21 @@ export default function Page() {
               />
             </svg>
           </div>
-          <div className="flex h-7 w-96 flex-row items-center justify-between text-xl font-medium text-white">
-            <Link href="#demo">Demo</Link>
-            <Link href="#features">Features</Link>
-            <Link href="#pricing">Pricing</Link>
-          </div>
+
           <div className="flex h-7 w-60 flex-row items-center justify-between text-xl font-medium text-white">
             <button onClick={() => signIn()}>Login</button>
             <button
               onClick={() => signIn()}
               className="h-11 w-36 rounded-xl bg-[#7E2EFF] py-2 text-center text-lg font-bold"
             >
-              START FREE
+              Sign Up
             </button>
           </div>
         </div>
       </div>
       {/* Hero */}
-      <div className="z-10 px-36 py-24">
-        <div>
+      <div className="z-10 px-36 py-16">
+        <div className="text-center">
           <div className="text-6xl font-bold text-white">
             All Your Articles In <span className="text-[#7E2EFF]">One </span>
             Place
@@ -57,202 +62,20 @@ export default function Page() {
             Exprience.
           </div>
         </div>
-        <div className="flex w-96 flex-row items-center justify-between py-6 text-xl font-medium">
-          <button
-            onClick={() => signIn()}
-            className="h-14 w-44 rounded-xl bg-[#7E2EFF] py-3 text-center text-lg font-bold text-white"
-          >
-            START FREE
-          </button>
-          <button
-            onClick={() => signIn()}
-            className="h-14 w-44 rounded-xl bg-white py-3 text-center text-lg font-bold text-black"
-          >
-            View Live Demo
-          </button>
-        </div>
       </div>
       {/* Demo */}
-      <div className="z-10 px-36 py-24">
+      <div className="z-10 px-36 py-16">
         <Image
           className=" w-full rounded-3xl bg-cover shadow-xl"
           src={demo}
           alt="demo"
         />
       </div>
-      {/* Problem Agitation */}
-      <div className="z-10 px-36 py-36 text-center">
-        <div className="mb-4 text-5xl font-bold text-white">
-          Reading Online is
-          <span className="text-[#7E2EFF]"> Overwhelming </span>
-        </div>
-        <div className="text-4xl font-medium text-[#8B8B8B]">
-          You bookmark it and often you Forget Completely about it.
-        </div>
-      </div>
-      {/* Solution */}
-      <div className="z-10 px-36 py-24 text-center">
-        <div className="mb-8 text-5xl font-bold text-white">
-          Try Later <span className="text-[#7E2EFF]"> it </span>
-        </div>
-        <div className="flex w-full flex-row items-center justify-between px-4">
-          <div className="flex h-[15rem] w-[15rem] flex-col items-center justify-between rounded-3xl bg-[#282828] py-8 opacity-80 backdrop-blur-md">
-            <svg
-              width="120"
-              height="120"
-              viewBox="0 0 120 120"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M50 15H15V50H50V15Z"
-                stroke="white"
-                stroke-width="8"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M105 15H70V50H105V15Z"
-                stroke="white"
-                stroke-width="8"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M105 70H70V105H105V70Z"
-                stroke="white"
-                stroke-width="8"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M50 70H15V105H50V70Z"
-                stroke="white"
-                stroke-width="8"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-
-            <div className="text-xl font-medium text-white">Tidy</div>
-          </div>
-          <div className="flex h-[15rem] w-[15rem] flex-col items-center justify-between rounded-3xl bg-[#282828] py-8 opacity-80 backdrop-blur-md">
-            <svg
-              width="120"
-              height="120"
-              viewBox="0 0 120 120"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M40 30H105"
-                stroke="white"
-                stroke-width="13"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M40 60H105"
-                stroke="white"
-                stroke-width="13"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M40 90H105"
-                stroke="white"
-                stroke-width="13"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M15 30H15.05"
-                stroke="white"
-                stroke-width="13"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M15 60H15.05"
-                stroke="white"
-                stroke-width="13"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M15 90H15.05"
-                stroke="white"
-                stroke-width="13"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-
-            <div className="text-xl font-medium text-white">Organized</div>
-          </div>
-          <div className="flex h-[15rem] w-[15rem] flex-col items-center justify-between rounded-3xl bg-[#282828] py-8 opacity-80 backdrop-blur-md">
-            <svg
-              width="120"
-              height="120"
-              viewBox="0 0 120 120"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M46.3 46.3L15 55V70L85.7 85.7"
-                stroke="white"
-                stroke-width="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M105 76.7V30L68.4502 40.15"
-                stroke="white"
-                stroke-width="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M58.0001 84C57.4748 85.9042 56.5796 87.6862 55.3656 89.2444C54.1516 90.8026 52.6426 92.1065 50.9247 93.0815C49.2068 94.0565 47.3137 94.6836 45.3535 94.927C43.3933 95.1704 41.4043 95.0253 39.5001 94.5C37.5959 93.9747 35.8139 93.0795 34.2557 91.8655C32.6975 90.6515 31.3936 89.1425 30.4186 87.4246C29.4436 85.7067 28.8165 83.8136 28.5731 81.8534C28.3297 79.8932 28.4748 77.9042 29.0001 76"
-                stroke="white"
-                stroke-width="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M10 10L110 110"
-                stroke="white"
-                stroke-width="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-            <div className="text-xl font-medium text-white">Undistracted</div>
-          </div>
-        </div>
-      </div>
       {/* Call To Action */}
       <div className="z-10 flex flex-col items-center px-36 py-24 text-center">
         <div className="mb-4 text-5xl font-bold text-white">
           Get The <span className="text-[#7E2EFF]"> Most </span> Out of Your
           Articles
-        </div>
-        <div className=" mt-4 flex h-[20rem] w-[50rem] flex-col items-center gap-10 rounded-3xl bg-[#282828] py-8 opacity-80 backdrop-blur-md">
-          <div>
-            <div className="text-5xl font-bold text-white">
-              Ready To Get Started ?
-            </div>
-            <div className="text-[#FFFFFF]">Try Later it for free</div>
-          </div>
-          <div>
-            <Link
-              className="mb-4 h-11 w-[5rem] rounded-xl bg-[#7E2EFF] px-14 py-2 text-center text-2xl font-bold text-white"
-              href="/login"
-            >
-              START FREE
-            </Link>
-            <div className="mt-2 text-[#FFFFFF]">No credit card required.</div>
-          </div>
         </div>
       </div>
       {/* Credits */}

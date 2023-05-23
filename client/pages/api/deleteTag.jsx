@@ -1,5 +1,7 @@
 import Cors from "cors"
 import { PrismaClient } from "@prisma/client"
+import { getServerSession } from "next-auth/next"
+import { authOptions } from "./auth/[...nextauth]"
 
 const prisma = new PrismaClient()
 
@@ -21,12 +23,14 @@ function runMiddleware(req, res, fn) {
 
 export default async function deleteTag(req, res) {
   await runMiddleware(req, res, cors)
+  const session = await getServerSession(req, res, authOptions)
+  if (session) {
+    const { tagId } = req.body
 
-  const { tagId } = req.body
+    const result = await prisma.tag.delete({
+      where: { id: tagId },
+    })
 
-  const result = await prisma.tag.delete({
-    where: { id: tagId },
-  })
-
-  res.status(200).json(result)
+    res.status(200).json(result)
+  }
 }

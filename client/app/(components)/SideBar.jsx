@@ -5,8 +5,13 @@ import { AddTag } from "./AddTag"
 import AddArticle from "./AddArticle"
 import Link from "next/link"
 import { useEffect } from "react"
+import { useSession, signOut } from "next-auth/react"
+import { useRouter } from "next/navigation"
 
 export function SideBar() {
+  const { data: session, status } = useSession()
+  const router = useRouter()
+
   function onKeyDown(event) {
     if (event.key === "i") {
       router.push("/inbox")
@@ -24,6 +29,12 @@ export function SideBar() {
       window.removeEventListener("keydown", onKeyDown)
     }
   }, [])
+
+  useEffect(() => {
+    if (!session) {
+      router.push("/")
+    }
+  }, [session])
 
   return (
     <div className="fixed top-0 left-0 col-span-1 row-span-6 flex h-screen w-24 flex-col items-center justify-between rounded-tr-xl rounded-br-xl bg-black bg-opacity-5 py-8">
@@ -276,7 +287,20 @@ export function SideBar() {
       <div className="flex flex-col items-center">
         <AddArticle />
         {/* Profile */}
-        <button></button>
+        <button
+          onClick={() => {
+            signOut()
+          }}
+        >
+          {status === "authenticated" ? (
+            <img
+              className="h-11 w-11 rounded-full"
+              src={session.user.image}
+            ></img>
+          ) : (
+            ""
+          )}
+        </button>
       </div>
     </div>
   )
