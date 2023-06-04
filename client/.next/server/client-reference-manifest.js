@@ -1755,7 +1755,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "*",
         "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
+          "app-client-internals:static/chunks/app-client-internals.js"
         ],
         "async": false
       },
@@ -1763,7 +1763,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "",
         "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
+          "app-client-internals:static/chunks/app-client-internals.js"
         ],
         "async": false
       },
@@ -1771,7 +1771,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "default",
         "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
+          "app-client-internals:static/chunks/app-client-internals.js"
         ],
         "async": false
       }
@@ -3401,7 +3401,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
         "name": "*",
         "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
+          "app-client-internals:static/chunks/app-client-internals.js"
         ],
         "async": false
       },
@@ -3409,7 +3409,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
         "name": "",
         "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
+          "app-client-internals:static/chunks/app-client-internals.js"
         ],
         "async": false
       },
@@ -3417,33 +3417,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
         "name": "default",
         "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/(components)/NextAuthProvider.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app-client-internals:static/chunks/app-client-internals.js"
         ],
         "async": false
       }
@@ -3672,490 +3646,28 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/(components)/ArticlePreview.jsx": {
+    "(app-client)/./app/(components)/NextAuthProvider.jsx": {
       "*": {
-        "id": "(sc_client)/./app/(components)/ArticlePreview.jsx",
+        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
         "name": "*",
         "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./app/(components)/ArticlePreview.jsx",
+        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
         "name": "",
         "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
-        ],
-        "async": false
-      },
-      "ArticlePreview": {
-        "id": "(sc_client)/./app/(components)/ArticlePreview.jsx",
-        "name": "ArticlePreview",
-        "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/(components)/DropDownMenu.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/(components)/DropDownMenu.jsx",
-        "name": "*",
-        "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/(components)/DropDownMenu.jsx",
-        "name": "",
-        "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
-        ],
-        "async": false
-      },
-      "DropDownMenu": {
-        "id": "(sc_client)/./app/(components)/DropDownMenu.jsx",
-        "name": "DropDownMenu",
-        "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/inbox/page.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/inbox/page.jsx",
-        "name": "*",
-        "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/inbox/page.jsx",
-        "name": "",
-        "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/inbox/page.jsx",
+        "id": "(sc_client)/./app/(components)/NextAuthProvider.jsx",
         "name": "default",
         "chunks": [
-          "app/inbox/page:static/chunks/app/inbox/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./redux/slices/apiSlice.js": {
-      "*": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "*",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "apiSlice": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "apiSlice",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useAddArticleMutation": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useAddArticleMutation",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useAddNewTagMutation": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useAddNewTagMutation",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useDeleteArticleMutation": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useDeleteArticleMutation",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useDeleteTagMutation": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useDeleteTagMutation",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useGetArticlesQuery": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useGetArticlesQuery",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useGetTagQuery": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useGetTagQuery",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useRemoveTagArticleMutation": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useRemoveTagArticleMutation",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useTagArticleMutation": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useTagArticleMutation",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "useUpdateStatusMutation": {
-        "id": "(sc_client)/./redux/slices/apiSlice.js",
-        "name": "useUpdateStatusMutation",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/(components)/AddArticle.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/(components)/AddArticle.jsx",
-        "name": "*",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/(components)/AddArticle.jsx",
-        "name": "",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/(components)/AddArticle.jsx",
-        "name": "default",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/(components)/AddTag.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/(components)/AddTag.jsx",
-        "name": "*",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/(components)/AddTag.jsx",
-        "name": "",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "AddTag": {
-        "id": "(sc_client)/./app/(components)/AddTag.jsx",
-        "name": "AddTag",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/(components)/Providers.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/(components)/Providers.jsx",
-        "name": "*",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/(components)/Providers.jsx",
-        "name": "",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/(components)/Providers.jsx",
-        "name": "default",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/(components)/Search.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/(components)/Search.jsx",
-        "name": "*",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/(components)/Search.jsx",
-        "name": "",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "Search": {
-        "id": "(sc_client)/./app/(components)/Search.jsx",
-        "name": "Search",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/(components)/SideBar.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/(components)/SideBar.jsx",
-        "name": "*",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/(components)/SideBar.jsx",
-        "name": "",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "SideBar": {
-        "id": "(sc_client)/./app/(components)/SideBar.jsx",
-        "name": "SideBar",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/(components)/Topbar.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/(components)/Topbar.jsx",
-        "name": "*",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/(components)/Topbar.jsx",
-        "name": "",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "TopBar": {
-        "id": "(sc_client)/./app/(components)/Topbar.jsx",
-        "name": "TopBar",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/add-locale.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
-        "name": "*",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
-        "name": "",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
-        "name": "default",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/get-domain-locale.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
-        "name": "*",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
-        "name": "",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
-        "name": "default",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/request-idle-callback.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
-        "name": "*",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
-        "name": "",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
-        "name": "default",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/use-intersection.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
-        "name": "*",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
-        "name": "",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
-        "name": "default",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./redux/store/store.js": {
-      "*": {
-        "id": "(sc_client)/./redux/store/store.js",
-        "name": "*",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./redux/store/store.js",
-        "name": "",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
-        ],
-        "async": false
-      },
-      "store": {
-        "id": "(sc_client)/./redux/store/store.js",
-        "name": "store",
-        "chunks": [
-          "app/inbox/layout:static/chunks/app/inbox/layout.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
@@ -7980,7 +7492,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "*",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -7988,7 +7500,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "*",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -7996,7 +7508,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -8004,7 +7516,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -8012,7 +7524,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "default",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -8020,7 +7532,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "default",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11148,7 +10660,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11156,7 +10668,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11164,7 +10676,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11172,7 +10684,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11180,7 +10692,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "default",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11188,7 +10700,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "default",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11260,7 +10772,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "*",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11268,7 +10780,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "*",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11276,7 +10788,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11284,7 +10796,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11292,7 +10804,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "__esModule",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11300,7 +10812,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "__esModule",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11308,7 +10820,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "addPathPrefix",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11316,7 +10828,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "addPathPrefix",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11484,7 +10996,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "*",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11492,7 +11004,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "*",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11500,7 +11012,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11508,7 +11020,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11516,7 +11028,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "__esModule",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11524,7 +11036,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "__esModule",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11532,7 +11044,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "parsePath",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11540,7 +11052,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "parsePath",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11548,7 +11060,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11556,7 +11068,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11564,7 +11076,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11572,7 +11084,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11580,7 +11092,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "__esModule",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11588,7 +11100,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "__esModule",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11596,7 +11108,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "removeTrailingSlash",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -11604,45 +11116,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "removeTrailingSlash",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/font/google/target.css?{\"path\":\"app/layout.jsx\",\"import\":\"Inter\",\"arguments\":[{\"weight\":[\"400\",\"500\",\"700\"],\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx": {
-      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx#": {
-      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx#default": {
-      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
     },
@@ -12542,1331 +12016,41 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/ArticlePreview.jsx": {
-      "id": "(app-client)/./app/(components)/ArticlePreview.jsx",
-      "name": "*",
-      "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/ArticlePreview.jsx#": {
-      "id": "(app-client)/./app/(components)/ArticlePreview.jsx",
-      "name": "",
-      "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/ArticlePreview.jsx#ArticlePreview": {
-      "id": "(app-client)/./app/(components)/ArticlePreview.jsx",
-      "name": "ArticlePreview",
-      "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/DropDownMenu.jsx": {
-      "id": "(app-client)/./app/(components)/DropDownMenu.jsx",
-      "name": "*",
-      "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/DropDownMenu.jsx#": {
-      "id": "(app-client)/./app/(components)/DropDownMenu.jsx",
-      "name": "",
-      "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/DropDownMenu.jsx#DropDownMenu": {
-      "id": "(app-client)/./app/(components)/DropDownMenu.jsx",
-      "name": "DropDownMenu",
-      "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/inbox/page.jsx": {
-      "id": "(app-client)/./app/inbox/page.jsx",
-      "name": "*",
-      "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/inbox/page.jsx#": {
-      "id": "(app-client)/./app/inbox/page.jsx",
-      "name": "",
-      "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/inbox/page.jsx#default": {
-      "id": "(app-client)/./app/inbox/page.jsx",
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/globals.css#": {
+      "id": "null",
       "name": "default",
       "chunks": [
-        "app/inbox/page:static/chunks/app/inbox/page.js"
-      ],
-      "async": false
+        "static/css/app/layout.css"
+      ]
     },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#apiSlice": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "apiSlice",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useAddArticleMutation": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useAddArticleMutation",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useAddNewTagMutation": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useAddNewTagMutation",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useDeleteArticleMutation": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useDeleteArticleMutation",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useDeleteTagMutation": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useDeleteTagMutation",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useGetArticlesQuery": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useGetArticlesQuery",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useGetTagQuery": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useGetTagQuery",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useRemoveTagArticleMutation": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useRemoveTagArticleMutation",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useTagArticleMutation": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useTagArticleMutation",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/slices/apiSlice.js#useUpdateStatusMutation": {
-      "id": "(app-client)/./redux/slices/apiSlice.js",
-      "name": "useUpdateStatusMutation",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/AddArticle.jsx": {
-      "id": "(app-client)/./app/(components)/AddArticle.jsx",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/AddArticle.jsx#": {
-      "id": "(app-client)/./app/(components)/AddArticle.jsx",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/AddArticle.jsx#default": {
-      "id": "(app-client)/./app/(components)/AddArticle.jsx",
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/font/google/target.css?{\"path\":\"app/layout.jsx\",\"import\":\"Inter\",\"arguments\":[{\"weight\":[\"400\",\"500\",\"700\"],\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
       "name": "default",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
+        "static/css/app/layout.css"
+      ]
     },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/AddTag.jsx": {
-      "id": "(app-client)/./app/(components)/AddTag.jsx",
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx": {
+      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
       "name": "*",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/AddTag.jsx#": {
-      "id": "(app-client)/./app/(components)/AddTag.jsx",
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx#": {
+      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
       "name": "",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/AddTag.jsx#AddTag": {
-      "id": "(app-client)/./app/(components)/AddTag.jsx",
-      "name": "AddTag",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/Providers.jsx": {
-      "id": "(app-client)/./app/(components)/Providers.jsx",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/Providers.jsx#": {
-      "id": "(app-client)/./app/(components)/Providers.jsx",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/Providers.jsx#default": {
-      "id": "(app-client)/./app/(components)/Providers.jsx",
+    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/NextAuthProvider.jsx#default": {
+      "id": "(app-client)/./app/(components)/NextAuthProvider.jsx",
       "name": "default",
       "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/Search.jsx": {
-      "id": "(app-client)/./app/(components)/Search.jsx",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/Search.jsx#": {
-      "id": "(app-client)/./app/(components)/Search.jsx",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/Search.jsx#Search": {
-      "id": "(app-client)/./app/(components)/Search.jsx",
-      "name": "Search",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/SideBar.jsx": {
-      "id": "(app-client)/./app/(components)/SideBar.jsx",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/SideBar.jsx#": {
-      "id": "(app-client)/./app/(components)/SideBar.jsx",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/SideBar.jsx#SideBar": {
-      "id": "(app-client)/./app/(components)/SideBar.jsx",
-      "name": "SideBar",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/Topbar.jsx": {
-      "id": "(app-client)/./app/(components)/Topbar.jsx",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/Topbar.jsx#": {
-      "id": "(app-client)/./app/(components)/Topbar.jsx",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/app/(components)/Topbar.jsx#TopBar": {
-      "id": "(app-client)/./app/(components)/Topbar.jsx",
-      "name": "TopBar",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/add-locale.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/add-locale.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/add-locale.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/add-locale.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/add-locale.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
-      "name": "default",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/add-locale.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
-      "name": "default",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/get-domain-locale.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/get-domain-locale.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/get-domain-locale.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/get-domain-locale.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/get-domain-locale.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
-      "name": "default",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/get-domain-locale.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
-      "name": "default",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/has-base-path.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/has-base-path.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/has-base-path.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/has-base-path.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/has-base-path.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "default",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/has-base-path.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "default",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/request-idle-callback.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/request-idle-callback.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/request-idle-callback.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/request-idle-callback.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/request-idle-callback.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "default",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/request-idle-callback.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "default",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/use-intersection.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/use-intersection.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/use-intersection.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/use-intersection.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/client/use-intersection.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "default",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/client/use-intersection.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "default",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/escape-regexp.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/escape-regexp.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/escape-regexp.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/escape-regexp.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/escape-regexp.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/escape-regexp.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/escape-regexp.js#escapeStringRegexp": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "escapeStringRegexp",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/escape-regexp.js#escapeStringRegexp": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "escapeStringRegexp",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router-context.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router-context.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router-context.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router-context.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router-context.js#RouterContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
-      "name": "RouterContext",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router-context.js#RouterContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
-      "name": "RouterContext",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router-context.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router-context.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/format-url.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/format-url.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#interpolateAs": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
-      "name": "interpolateAs",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#interpolateAs": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
-      "name": "interpolateAs",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#isDynamicRoute": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
-      "name": "isDynamicRoute",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#isDynamicRoute": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
-      "name": "isDynamicRoute",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/is-local-url.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#isLocalURL": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
-      "name": "isLocalURL",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#isLocalURL": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
-      "name": "isLocalURL",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/omit.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/omit.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/omit.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/omit.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/omit.js#omit": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
-      "name": "omit",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#omit": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
-      "name": "omit",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#pathHasPrefix": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
-      "name": "pathHasPrefix",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#pathHasPrefix": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
-      "name": "pathHasPrefix",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/querystring.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/querystring.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/resolve-href.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#resolveHref": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
-      "name": "resolveHref",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#resolveHref": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
-      "name": "resolveHref",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/route-matcher.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#getRouteMatcher": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
-      "name": "getRouteMatcher",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#getRouteMatcher": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
-      "name": "getRouteMatcher",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/route-regex.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/router/utils/route-regex.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/utils.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/utils.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/shared/lib/utils.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/node_modules/next/dist/esm/shared/lib/utils.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/store/store.js": {
-      "id": "(app-client)/./redux/store/store.js",
-      "name": "*",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/store/store.js#": {
-      "id": "(app-client)/./redux/store/store.js",
-      "name": "",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mohamedgharbi/Documents/Projects/Later-it/client/redux/store/store.js#store": {
-      "id": "(app-client)/./redux/store/store.js",
-      "name": "store",
-      "chunks": [
-        "app/inbox/layout:static/chunks/app/inbox/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     }
